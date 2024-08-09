@@ -1,0 +1,32 @@
+.card-chart {
+  position: relative;
+  height: 25rem;
+  width: 30rem;
+  margin-top: 1rem;
+
+  .chart-infor{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .value {
+    position: absolute;
+    bottom: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+  }
+
+  .card-text{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    p{
+      margin-bottom: 0;
+    }
+  }
+}
